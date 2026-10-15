@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "gleggexe",
+	"version": "${version}",
+	"name": "Glegg.exe",
+	"description": "Gleggmire Block Troll Mod",
+	"authors": [
+		"Me!"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/gleggexe/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"de.gleggexe.GleggExe"
+		],
+		"client": [
+			"de.gleggexe.GleggClient"
+		]
+	},
+	"mixins": [
+		"gleggexe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
